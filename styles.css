@@ -1,0 +1,60 @@
+:root {
+    --fuentePrincipal: 'Press Start 2P', cursive;
+}
+
+body {
+    background-color: rgb(13, 29, 61);
+    text-align: center;
+}
+
+h1 {
+    color: #FEF2BF;
+    font-family: var(--fuentePrincipal);
+    font-size: 3rem;
+    width: 70%;
+    margin: 1% auto 1%;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.button {
+    display: inline-block;
+    padding: 100px;
+    margin: 4%;
+    border: 10px solid black;
+    border-radius: 50px;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+footer {
+    color: #FEF2BF;
+    font-family: var(--fuentePrincipal);
+    margin: 50px auto 50px;
+}
+
+.pressed {
+    box-shadow: 0 0 30px white;
+    background-color: grey;
+}
+
+.game-over {
+    background-color: red;
+}
